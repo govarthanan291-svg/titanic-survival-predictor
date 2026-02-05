@@ -22,7 +22,7 @@ st.write("---")
 # ------------------------------
 # LOAD MODEL
 # ------------------------------
-MODEL_FILE = "naive_bayes_model_2026-02-05_12-30-15.pkl"
+MODEL_FILE = "naive_bayes_model.pkl"
 
 if not os.path.exists(MODEL_FILE):
     st.error("❌ Model file not found! Place your .pkl file in this folder.")
@@ -85,3 +85,4 @@ st.markdown(
     "<p style='text-align:center;'>Made with ❤️ using Streamlit & Naive Bayes</p>",
     unsafe_allow_html=True
 )
+
